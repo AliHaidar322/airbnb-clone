@@ -21,7 +21,9 @@
 
   <body>
     <header>
-      <%= render 'layouts/shared/header'%>
+      <% if controller.controller_name != "registrations" &&  controller.controller_name != "sessions" %>
+        <%= render 'layouts/shared/header'%>
+      <% end %>
     </header>
     <main>
       <p class="notice"><%= notice %></p>
