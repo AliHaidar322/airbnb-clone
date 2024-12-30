@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 gem "bootsnap", require: false
 gem 'faker'
+gem "image_processing", ">= 1.2"
 gem "importmap-rails"
 gem "jbuilder"
 gem 'money-rails', '~> 1.12'
