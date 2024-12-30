@@ -20,7 +20,9 @@
               </h3>
               <p class="mt-1 text-sm text-gray-500">Hosted By Ali Haidar</p>
               <p class="mt-1 text-sm text-gray-500">Jan 5—10</p>
-              <p class="mt-1 font-medium text-black"><span>$204</span> night</p>
+              <p class="mt-1 font-medium text-black">
+                <span><%= humanized_money_with_symbol(property.price_cents)%></span> night
+                </p>
             </div>
             <p class="font-medium text-black"> &#9733; 4.8</p>
           </div>
