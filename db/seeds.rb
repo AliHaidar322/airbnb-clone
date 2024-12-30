@@ -18,5 +18,6 @@
     city: Faker::Address.unique.city,
     state: Faker::Address.unique.state,
     country: Faker::Address.unique.country,
+    price: Money.from_amount((50...100).to_a.sample, 'USD'),
   })
 end
