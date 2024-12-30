@@ -1,1 +1,31 @@
-<h1>Hello World!</h1>
+<div class="bg-white">
+  <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+    <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+      <% 10.times do %>
+        <div class="group relative">
+          <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+            <img 
+              src="https://www.usatoday.com/gcdn/authoring/authoring-images/2024/06/05/USAT/73985590007-guest-favorites-canada-2023-winter-release.jpg?crop=6203,3491,x0,y322&width=660&height=371&format=pjpg&auto=webp"
+              alt="Front of men&#039;s Basic Tee in black."
+              class="h-full w-full object-cover object-center lg:h-full lg:w-full"
+            >
+          </div>
+          <div class="mt-4 flex justify-between">
+            <div>
+              <h3 class="font-medium text-black">
+                <a href="#">
+                  <span aria-hidden="true" class="absolute inset-0"></span>
+                  Lahore, Pakistan
+                </a>
+              </h3>
+              <p class="mt-1 text-sm text-gray-500">Hosted By Ali Haidar</p>
+              <p class="mt-1 text-sm text-gray-500">Jan 5—10</p>
+              <p class="mt-1 font-medium text-black"><span>$204</span> night</p>
+            </div>
+            <p class="font-medium text-black"> &#9733; 4.8</p>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
